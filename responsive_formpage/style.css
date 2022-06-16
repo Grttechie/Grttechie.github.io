@@ -1,0 +1,159 @@
+body{
+    background-image: url("bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: block;
+}
+
+
+.heading_div{
+    text-align: center;
+}
+
+h1{
+    color: white;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+p{
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*styling the link at the top of the form*/
+.form_div .top_link{
+    text-decoration: none;
+    text-align: center;
+    background-color:#5d54a3 ;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    width: auto;
+    box-sizing: border-box;
+    display: block;
+    box-shadow: 0px 7px #dc6c5c;
+
+    
+}
+
+
+/*styling the form*/
+form{
+    background-color: white;
+    color: #767578;
+    margin: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    display:block;
+    margin-bottom: 70px;
+    box-shadow: 0px 6px #db6668;
+}
+
+.form_div{
+    display: block;
+    text-align: center;
+}
+
+
+/*styling the input*/
+input{
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border:1px solid #eeeeee;
+    box-sizing:border-box;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+}
+
+input:focus{
+    outline-color: #5d54a3;
+}
+
+
+input[type = "submit"]{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border:none;
+    box-shadow:0px 4px #32b981;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 4px;
+    margin-bottom: 10px;
+}
+
+input[type = "submit"]:hover{
+    background-color: #77e2b4;
+    transition: 0.4s;
+    box-shadow:0px 4px #6dcca2;
+    cursor:pointer;
+}
+
+small{
+    margin-top: 2px;
+}
+
+form span{
+    display: inline-block;
+    color: #d3d3de;
+}
+
+#bottom_link{
+    color:#ef9b9a;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+@media only screen and (min-width:641px){
+    body{
+        background-image: url("bg-intro-desktop.png");
+    }
+
+    main{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: auto;
+    }
+
+    .heading_div{
+        margin-top: 15%;
+        width: 40%;
+    }
+
+    h1{
+        margin-left: 0;
+        text-align: left;
+        word-spacing: 10px;
+    }
+
+    p{
+        margin-left: 0;
+        text-align: justify;
+    }
+}
