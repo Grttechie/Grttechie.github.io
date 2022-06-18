@@ -172,6 +172,11 @@ h1,h3{
     color: white;
     display: block;
     margin-bottom: 15px;
+    transition:1s
+}
+
+.inner_links a:hover{
+    color: #00a3fa;
 }
 
 .lorem_grid{
@@ -219,6 +224,11 @@ h1,h3{
 
 .social_icons i{
     padding:0 10px 0 10px;
+    transition:1s;
+}
+
+.social_icons i:hover{
+    color: #00a3fa
 }
 
 
