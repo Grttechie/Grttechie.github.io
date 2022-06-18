@@ -9,6 +9,7 @@ body{
 h1,h3{
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'Poppins', sans-serif;
+    animation: animation1 1.3s both;
 }
 
 
@@ -137,6 +138,7 @@ h1,h3{
     display: inline-block;
     margin-bottom: 30px;
     transition: 0.5s;
+    animation: changebackground 2s infinite;
 }
 
 #special_div a:hover{
@@ -407,5 +409,41 @@ footer{
     .social_icons{
         width: 30%;
         margin-right: 5%;
+    }
+}
+
+/*Adding animations*/
+
+@keyframes animation1 {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 100;
+        -webkit-transform: translateX(0px);
+    }
+}
+
+
+@keyframes changebackground{
+    0%{
+        background-color:#ff52bf ;
+    }
+
+    25%{
+        background-color:#00aafa;
+    }
+
+    50%{
+        background-color:#fc9b8c;
+    }
+
+    75%{
+        background-color:#00aafa;
+    }
+
+    100%{
+        background-color:#ff52bf;
     }
 }
