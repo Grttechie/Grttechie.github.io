@@ -34,7 +34,7 @@ h1,h3{
     margin-left:10px;
 }
 
-.header_div a{
+#header_link{
     text-decoration: none;
     border-radius: 20px;
     background-color: #ffffff;
@@ -70,6 +70,12 @@ h1,h3{
     background-color: hsl(322, 100%, 66%);
     border-radius: 35px;
     font-weight: 400;
+    transition: 1s;
+}
+
+.community_body a:hover{
+    background-color: #c352e6;
+    
 }
 
 .community_body img{
@@ -130,6 +136,11 @@ h1,h3{
     border-radius: 35px;
     display: inline-block;
     margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+#special_div a:hover{
+    background-color: #c352e6;
 }
 
 #special_div h3{
